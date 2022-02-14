@@ -1,0 +1,45 @@
+body {
+    font-family: Arial;
+}
+
+.container {
+    display:  flex; 
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: space-around;
+    row-gap: 15px;
+    padding: 15px;
+}
+
+.item {
+    /*width: 40%;*/
+    padding:  15px;
+}
+
+.hidden {
+    opacity:0;
+}
+
+
+.c1 {
+    fill: #0FA3B1;
+}
+
+.c2 {
+    fill: #EDDEA4;
+}
+
+.c3 {
+    fill: #F7A072;
+    opacity: 1;
+}
+
+.c2:hover {
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.clicks {
+    position: relative;
+}
