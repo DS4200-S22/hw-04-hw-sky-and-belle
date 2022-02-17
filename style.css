@@ -44,6 +44,7 @@ text {
     stroke-width: 4px;
 }
 
-.clicks {
-    position: relative;
+#clicks {
+  position: relative;
+  transform: translate(50%, 50%);
 }
