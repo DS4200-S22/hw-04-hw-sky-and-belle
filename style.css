@@ -22,10 +22,14 @@ text {
     opacity:0;
 }
 
+.stroke {
+  stroke: black;
+  stroke-width: 4px;
+  opacity: 1;
+}
+
 #c1 {
     fill: #0FA3B1;
-    stroke: black;
-    stroke-width: 4px;
 }
 
 #c2 {
@@ -34,14 +38,6 @@ text {
 
 #c3 {
     fill: #F7A072;
-    opacity: 1;
-    stroke: black;
-    stroke-width: 4px;
-}
-
-#c2:hover {
-    stroke: black;
-    stroke-width: 4px;
 }
 
 #clicks {
