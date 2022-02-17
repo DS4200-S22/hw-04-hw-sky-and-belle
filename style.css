@@ -22,24 +22,24 @@ text {
     opacity:0;
 }
 
-.c1 {
+#c1 {
     fill: #0FA3B1;
     stroke: black;
     stroke-width: 4px;
 }
 
-.c2 {
+#c2 {
     fill: #EDDEA4;
 }
 
-.c3 {
+#c3 {
     fill: #F7A072;
     opacity: 1;
     stroke: black;
     stroke-width: 4px;
 }
 
-.c2:hover {
+#c2:hover {
     stroke: black;
     stroke-width: 4px;
 }
