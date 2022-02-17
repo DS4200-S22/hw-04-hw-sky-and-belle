@@ -6,6 +6,11 @@ h1 {
     text-align: center;
 }
 
+text {
+    text-anchor: middle;
+    
+}
+
 .container {
     display:  flex; 
     justify-content: space-evenly;
@@ -13,11 +18,9 @@ h1 {
     align-content: space-around;
 }
 
-
 .hidden {
     opacity:0;
 }
-
 
 .c1 {
     fill: #0FA3B1;
